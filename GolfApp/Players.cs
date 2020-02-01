@@ -12,10 +12,10 @@ namespace GolfApp
         public string PlayerName { get; set; }
         public string Nickname { get; set; }
         public string EmailAddress { get; set; }
-        public int Holes { get; set; }
-        public int Score { get; set; }
-        public int Fairways { get; set; }
-        public int Putts { get; set; }
+        public int Holes { get; private set; }
+        public int Score { get; private set; }
+        public int Fairways { get; private set; }
+        public int Putts { get; private set; }
         #endregion
 
         #region Methods
