@@ -9,6 +9,7 @@ namespace GolfApp
     /// This class is a Players profile
     /// </summary>
         #region Properties
+
         public string PlayerName { get; set; }
         public string Nickname { get; set; }
         public string EmailAddress { get; set; }
@@ -19,6 +20,7 @@ namespace GolfApp
         #endregion
 
         #region Methods
+
         /// <summary>
         /// Records the number of holes played
         /// </summary>
